@@ -1,0 +1,66 @@
+body {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#bienvenida {
+    position: absolute;
+    display: table;
+    background: linear-gradient(to bottom right, #752fec, #1fb3ea);
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+#nombre {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#Biografia {
+    font-family: sans-serif;
+    /*padding: 50px;*/
+    padding-top: 45%;
+}
+
+.line {
+    /*background: black;*/
+    height: 60px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 5px;
+    right: auto;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, #752fec, #1fb3ea);
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
